@@ -1,0 +1,32 @@
+package felipe_brito_lista3;
+
+import java.util.Scanner;
+
+public class positivoeNegativo {
+
+	public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+		
+		int positivos = 0;
+		int negativos = 0;
+		
+		
+		for (int i = 1; i <= 10; i++) {
+			System.out.println("Digite o " + i + "º número: ");
+			int numero = sc.nextInt();
+			
+			if (numero > 0) {
+				positivos++;
+			} else if (numero < 0) {
+				negativos++;
+			}
+					
+		}
+		
+		System.out.println("Postivos: " + positivos);
+		System.out.println("Negatios: " + negativos);
+
+		sc.close();
+	}
+
+}
