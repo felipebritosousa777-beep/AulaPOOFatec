@@ -1,4 +1,4 @@
-package desafios;
+package jogos;
 
 import java.util.Scanner;
 

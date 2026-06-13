@@ -1,4 +1,4 @@
-package desafios;
+package jogos;
 
 import java.util.Scanner;
 import java.util.Random;
@@ -44,5 +44,5 @@ public class AdvinhaçãoNumerica {
 	        sc.close();
 	    }
 	}
-	}
+}
 
